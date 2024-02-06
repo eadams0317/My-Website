@@ -3,52 +3,104 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>replit</title>
-  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <header class="header">
-  <h1>Eric Adams</h1>
-    <p>Web Developer</p>
-  </header>
+  <div class="body1">
+    <br>
+
+    <section>
+      <div class="circular-image">
+        <img src="assets/photo.jpg" width="200px"alt="Circular Image">
+      </div>
+
+      <h2>Hey! I'm Eric Adams</h2>
+      <p>I'm graduating this year from Florida International University with a Bachelor of Science in Information Technology and a certificate in Film Studies, and I specialize in IT systems and software development.</p>
+    </section>
+  </div>
+
+  <div class="sectionNoBorder">
+    <h2>Connect</h2>
+    <div class="rowSection">
+      <a href="https://www.linkedin.com/in/eric-adams0317/"><img src="assets/linkedInLogo.png" alt="LinkedIn" width="100px"></a>
+      <a href="mailto:eadams0317@gmail.com"><img src="assets/mail.png" alt="Email" width="100px"></a>
+    </div>
+    </div>
+
   <section>
-    <h2>ABOUT ME</h2>
-    <p>
-      Welcome to my portfolio!! <br> I am a passionate developer with a love for creating websites. <br> I thrive in learning new technologies. 
-    </p>
-  </section>
-
-<section class="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li>HTML 5</li>
-    <li>CSS</li>
-    <li>JavaSCript</li>
-  </ul>
-</section>
-
-  <section class="project">
-    <h2>My Projects</h2>
-    <div class="project">
-      <h3>Project 1</h3>
-      <p>Text for project 1</p>
+    <h2>
+        Jump To
+    </h2>
+    <div class="rowSection">
+    <a href="#skills"><h3>Education</h3></a>
+    <a href="#skills"><h3>Skills</h3></a>
+    <a href="#skills"><h3>Projects</h3></a>
+    <a href="#skills"><h3>Leadership</h3></a>
+    <a href="#skills"><h3>Work Experience</h3></a>
     </div>
-    <div>
-      <h3>Project 1</h3>
-      <p>Text for project 1</p>
-    </div>
-  </section>
-
-  <footer class="footer">
-
-    <p>2024 Eric Adams. <br> All Rights Reserved</p>
-  </footer>
-
-
+  </section><!--Jump To-->
   
-  <script src="script.js"></script>
+  <section id="skills"> 
+    <h2>
+        Skills
+    </h2>
+
+    <div class="skillCardContainer">
+    <div class="skillCard">
+      <h3>Software</h3>
+      <ul>
+        <li>MS Visual Studio 2019 (.NET)</li>
+        <li>PyCharm: Python IDE</li>
+        <li>Xcode</li>
+        <li>Apache NetBeans IDE</li>
+        <li>Visual Studio Code</li>
+        <li>MySQL</li>
+        <li>GitHub</li>
+      </ul>
+    </div>
+      <div class="skillCard">
+        <h3>Lanugages</h3>
+        <ul>
+          <li>Python</li>
+          <li>Visual Basic</li>
+          <li>Swift</li>
+          <li>Java</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+      <div class="skillCard">
+        <h3>Concepts</h3>
+        <ul>
+          <li>IT Systems</li>
+          <li>Software Development (Web, Application, Mobile)</li>
+          <li>System Administration</li>
+          <li>API Development</li>
+          <li>UI Design</li>
+          <li>Database Management</li>
+        </ul>
+      </div>
+
+      <div class="skillCard">
+        <h3>Certifications</h3>
+          <img src="assets/Aplus Logo Certified CE.png" alt="A+ Cert" width="200px">
+      </div>
+      
+    </div>
+  </section><!--Skills-->
+
+
+    <footer class="footer">
+    <p>2024 Eric Adams. <br> All Rights Reserved <br></p>
+    </footer> 
+  
+    <script src="script.js"></script>
+  
 </body>
 
 </html>
