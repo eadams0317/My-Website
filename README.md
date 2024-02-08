@@ -6,7 +6,7 @@ Here, you'll find information about Eric's educational background, skills, proje
 
 Whether you're an employer, colleague, or fellow enthusiast in the tech and IT industry, this website provides valuable insights into Eric's capabilities and achievements.
 
-[Connect with Eric]([https://www.example.com](https://www.linkedin.com/in/eric-adams0317/)https://www.linkedin.com/in/eric-adams0317/)
+[Connect with Eric]([(https://www.linkedin.com/in/eric-adams0317/)https://www.linkedin.com/in/eric-adams0317/])
 
 
 
